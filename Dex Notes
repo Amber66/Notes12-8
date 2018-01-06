@@ -23,3 +23,15 @@ function tradeBalances(address tokenGet, uint amountGet, address tokenGive, uint
   因此在tokenGive中user = tokens - 5; sender = tokens + 5;
   
   
+ investor perspective：
+1.depositEquityTokens
+2.getRemainingTimeFornextPayout
+3.WithdrawDividend
+4.ShowDividend
+5.WithdrawEquity
+
+system perspective:
+1.checkPayable
+2.payDiviend
+3.caculateDiviend
+
